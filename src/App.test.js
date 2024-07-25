@@ -1,8 +1,19 @@
-import { render, screen } from '@testing-library/react';
+import React from 'react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('increments counter on button click', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  
+  // Find the button element with the text "Increment"
+  const buttonElement = screen.getByText(/increment/i);
+  
+  // Simulate a click event on the button
+  fireEvent.click(buttonElement);
+  
+  // Check if the counter element has the expected text
+  const counterElement = screen.getByText(/count: 1/i);
+  
+  // Verify if the counter element is in the document
+  expect(counterElement).toBeInTheDocument();
 });
