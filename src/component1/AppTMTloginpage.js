@@ -1,11 +1,11 @@
 import React from 'react'
 import './AppTMTloginpage.css'
-import signuppageillustrativeimg from '../assetsandimages/signuppage/loginpageillustration.jpeg'
+import signuppageillustrativeimg from '../assetsandimages/loginpage/loginpageillustration.jpeg'
 import { Link } from 'react-router-dom'
 
 const AppTMTloginpage = () => {
     const motherdiv = {
-        backgroundColor: 'rgb(237, 112, 98)',
+        backgroundColor: 'rgb(140, 161, 116)',
         backgroundsize: "cover",
         backgroundRepeat: "no-repeat",
         height: '100vh',

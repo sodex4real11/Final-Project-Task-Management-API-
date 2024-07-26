@@ -62,7 +62,7 @@ const AppTMThomepage = () => {
     };
 
     const homepagediv = {
-        backgroundColor: 'rgb(237, 112, 98)',
+        backgroundColor: 'rgb(199, 214, 214)',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         height: '100vh',

@@ -26,7 +26,7 @@
 }
 
 #statbutton{
-    background-color:  rgb(224, 40, 19);
+    background-color:  rgb(216, 213, 235);
     border-radius: 5px;
     border: none;
     height: 35px;
@@ -37,15 +37,15 @@
 
 #statbutton:hover{
     cursor: pointer;
-    background-color: rgb(249, 144, 128);
+    background-color: rgb(171, 219, 231);
 }
 
 .weeklystat{
-    background-color:  rgb(224, 40, 19);
+    background-color:  rgb(174, 207, 209);
 }
 
 .monthlystat{
-    background-color:  rgb(224, 40, 19);
+    background-color:  rgb(201, 231, 231);
 }
 
 .profileicondiv{
@@ -55,11 +55,11 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #007bff;
+    background-color: #589b39;
 }
 
 .profileicon{
-    width: 100%;
+    width: 130%;
     height: auto;
 }
 
@@ -107,17 +107,17 @@
     border: none;
     font-size: 13px;
     color: white;
-    background-color:  rgb(224, 40, 19);
+    background-color:  rgb(199, 214, 214);
 
 }
 
 .createbutton:hover{
     cursor: pointer;
-    background-color: rgb(249, 144, 128);
+    background-color: rgba(180, 198, 209, 0.336);
 }
 
 .taskmanagementdiv{
-    background-color: rgb(249, 144, 128);
+    background-color: rgb(185, 214, 223);
     border-radius: 10px;
     height: 400px;
     width: 1000px;

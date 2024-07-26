@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const AppTMTstatisticpage = () => {
     const statisticpagediv = {
-        backgroundColor: 'rgb(237, 112, 98)',
+        backgroundColor: 'rgb(8, 38, 48)',
         backgroundsize: "cover",
         backgroundRepeat: "no-repeat",
         height: '100vh',
